@@ -1,0 +1,271 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+    
+}
+
+.intro-section h1{
+    font-size: 4em;
+}
+
+.intro-section p{
+   padding-top: 20px;
+   font-size: 1.2em;
+}
+
+.intro-section img{
+    position:absolute;
+}
+
+.integrantes-section {
+    padding-top: 100px;
+    background: #FFF;
+}
+
+.services-section {
+    padding-top: 60px;
+    background: #fff;
+}
+
+.contact-section {
+    padding-top: 60xpx;
+    padding-bottom:30px;
+    text-align: center;
+    background: #FFF;
+}
+
+.llama-section {
+    /*background-image: url(../../media/llama.jpg);*/
+    background: #78b1a2;    
+}
+
+.llama-section h1{
+    padding-top: 150px;
+    font-weight: bold;
+    color:#000;
+}
+
+.llama-section h2{
+    font-weight: bold;
+    color:#E8E8E8;
+}
+
+.llama-section p{
+   text-align: justify;
+   font-size: 1.3em;
+   color:#000;
+}
+
+.llama-section h3{
+	color: #000;
+}
+
+.llama-section a{
+	color:#000;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+
+.llama-section img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+}
+.llama-row{
+  position: relative;
+}
+.llama-col {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar{
+    font-size: 1.35em;
+    background: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+    color: #6E6E6E;
+}
+
+.navbar-default .navbar-brand{
+    color: #000;
+}
+
+.atividades ul li{
+    font-size: 1.2em;
+    
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+h4{
+    font-weight: bold;
+}
+
+#integ {
+    list-style: none;
+    margin: 20px 0 0 -40px;
+}
+
+#integ li {
+   height: 200px;
+}
+#integ li img {
+    width: 100px;
+}
+
+#integ li a.img {
+    display: block;
+    height: 100px;
+}
+
+#integ li a:hover{
+     text-decoration: none;
+}
+
+#integ li a{
+     color: #505050;
+     font-weight: bold;
+}
+
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active{
+  background-color: #2F5556;
+  color: #FFF;
+}
+
+
+
+@media (max-width: 992px ) {
+   .llama-section h1,
+   .llama-section h2,
+   .llama-section h3,
+   .llama-section h4,
+   .llama-section p {
+   /*padding-right: 200px;*/
+   }
+   .llama-section h1 {
+       padding-top: 20px;
+   }
+}
+
+@media (max-width: 768px ) {
+   #integ li{
+       height: 250px;
+   }
+   .llama-section h1,
+   .llama-section h2,
+   .llama-section h3,
+   .llama-section h4,
+   .llama-section p {
+       padding-right: 5px;
+   }
+   .llama-section h1 {
+       padding-top: 50px;
+       font-size: 24px;
+   }
+   .llama-section h2{
+       font-size: 20px;
+   }
+  .llama-section h3{
+       font-size: 18px;
+   }
+  .llama-section h4{
+       font-size: 14px;
+   }
+   .llama-section p{
+       font-size: 16px;
+   }
+  .llama-section img,
+  .llama-col{
+    position: relative;
+  }
+  .llama-section img{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: auto;
+  }
+
+    
+    
+}
+
+@media (max-width: 400px ) {
+   #integ li{
+       width: 50%;
+   }
+   .llama-section h1,
+   .llama-section h2,
+   .llama-section h3,
+   .llama-section h4,
+   .llama-section p {
+       font-size: 16px;
+   }
+   .llama-section h1 {
+       padding-top: 0;
+       font-size: 24px;
+   }
+   .llama-section h2{
+       font-size: 20px;
+   }
+     .llama-section h3{
+       font-size: 18px;
+   }
+     .llama-section h4{
+       font-size: 14px;
+   }
+   .llama-section a{
+    padding-left: 2px;
+    padding-right: 2px;
+    
+  }
+ 
+  
+
+}
+
